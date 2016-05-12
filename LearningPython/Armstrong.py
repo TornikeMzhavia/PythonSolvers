@@ -18,7 +18,7 @@ def armstrong(n):
             print(i)
         i += 1
 
-startTime = time.time()
+startTime = time.perf_counter()
 
 n = int(sys.argv[1])
 powerMatrix = []
@@ -32,4 +32,4 @@ for i in range(10):
 
 armstrong(n)
 
-print(time.time() - startTime)
+print(time.perf_counter() - startTime)

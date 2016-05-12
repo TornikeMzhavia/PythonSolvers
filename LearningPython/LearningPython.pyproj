@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>bae36e5c-fac3-489d-a0ec-93948d4b8183</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>DateTime.py</StartupFile>
+    <StartupFile>Chairs.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -41,6 +41,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Calendar.py" />
+    <Compile Include="Chairs.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="DateTime.py">
       <SubType>Code</SubType>
     </Compile>
