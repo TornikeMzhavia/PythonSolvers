@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>bae36e5c-fac3-489d-a0ec-93948d4b8183</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>ConnectedCells.py</StartupFile>
+    <StartupFile>FlatlandSpaceStations.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -47,11 +47,17 @@
     <Compile Include="ConnectedCells.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="CutTheTree.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="DateTime.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="DNA.py" />
     <Compile Include="Exponential.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FlatlandSpaceStations.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Graph.py" />

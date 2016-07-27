@@ -6,6 +6,7 @@ sys.stdin = open('input10.txt', 'r')
 
 def pairs(a,k):
     #return sum(map(lambda number: number-k in a, a))
+    #return len([1 for number in a if number-k in a])
     return sum([1 for number in a if number-k in a])
     #return len(list(filter(lambda el: el-k in a, a)))
     #return sum(number-k in a for number in a)
