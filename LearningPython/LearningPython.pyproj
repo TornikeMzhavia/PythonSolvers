@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>bae36e5c-fac3-489d-a0ec-93948d4b8183</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>FlatlandSpaceStations.py</StartupFile>
+    <StartupFile>SpecialMultiple.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -13,8 +13,14 @@
     <Name>LearningPython</Name>
     <RootNamespace>LearningPython</RootNamespace>
     <InterpreterId>{2af0f10d-7135-4994-9156-5d01c9c11b7e}</InterpreterId>
-    <InterpreterVersion>3.4</InterpreterVersion>
+    <InterpreterVersion>3.5</InterpreterVersion>
     <IsWindowsApplication>False</IsWindowsApplication>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <CommandLineArguments>
+    </CommandLineArguments>
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
+    <InterpreterArguments>
+    </InterpreterArguments>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -32,11 +38,20 @@
     <Compile Include="AdventOfCode.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="argparseTest.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Armstrong.py" />
+    <Compile Include="BalancedBrackets.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="BinomialDivisibility.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Boxes.py" />
+    <Compile Include="BuzfeedImageDownlaoder.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Calculator.py">
       <SubType>Code</SubType>
     </Compile>
@@ -47,6 +62,12 @@
     <Compile Include="ConnectedCells.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="altair.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Cookbook\DataStructures.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="CutTheTree.py">
       <SubType>Code</SubType>
     </Compile>
@@ -55,6 +76,9 @@
     </Compile>
     <Compile Include="DNA.py" />
     <Compile Include="Exponential.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FlaskBasic.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="FlatlandSpaceStations.py">
@@ -73,7 +97,22 @@
     <Compile Include="Pairs.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="pdb_debugging.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Permutations.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PolySolver.py" />
+    <Compile Include="Sherlock_and_Divisors.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SimpleTextEditor.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SpecialMultiple.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="TextWorker.py" />
     <Compile Include="TimeConversion.py">
       <SubType>Code</SubType>
@@ -82,7 +121,10 @@
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="{2af0f10d-7135-4994-9156-5d01c9c11b7e}\2.7" />
-    <InterpreterReference Include="{2af0f10d-7135-4994-9156-5d01c9c11b7e}\3.4" />
+    <InterpreterReference Include="{2af0f10d-7135-4994-9156-5d01c9c11b7e}\3.5" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Cookbook\" />
   </ItemGroup>
   <Import Project="$(PtvsTargetsFile)" Condition="Exists($(PtvsTargetsFile))" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="!Exists($(PtvsTargetsFile))" />
